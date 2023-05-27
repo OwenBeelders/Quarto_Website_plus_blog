@@ -1,5 +1,6 @@
 ---
-title: "Quarto_Website_plus_blog"
+title: "Welcome to my website"
+image: "image.jpg"
 ---
 
 This is a Quarto website.

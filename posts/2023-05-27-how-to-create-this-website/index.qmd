@@ -1,0 +1,45 @@
+---
+title: "How to create this websie"
+author: "Owen beelders"
+date: "2023-05-27"
+categories: [news, code, analysis]
+image: "image.jpg"
+---
+
+A new approach
+
+-   Open two sessions of RStudio, one each of your screens
+
+-   Left-Screen: File \> New Project \> New Directory \> Quarto website
+
+    -   Type in a Directory Name
+
+    -   Pick directory
+
+    -   Click on "Create Project"
+
+-   Right-Screen: File \> New Project \> New Directory \> Quarto Blog
+
+    -   Type in a Directory Name
+
+    -   Pick directory
+
+    -   Click on "Create Project"
+
+-   Use windows explorer to go to the folder for the blog \> copy the posts folder and past it in the folder for the website
+
+-   In the Files pane of the website, use the "New Blank File" button to create the posts.qmd file
+
+-   Use windows explorer to go to the folder for the blog \> copy the contents of index.qmd into the posts.qmd file in the Website folder
+
+    -   Within posts.qmd, change title to "blog"
+
+-   In the \_quarto.yml file, add the posts.qmd to the navbar
+
+-   Click render
+
+-   To host in github, we need our post saved in a docs file
+
+    -   In the \_quarto.yml file, add the line ....
+
+    -   <https://crumplab.com/articles/blog/post_887_8_25_22_quartoblog/index.html>

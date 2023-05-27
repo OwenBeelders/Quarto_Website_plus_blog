@@ -9,9 +9,16 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Quarto_Website_plus_blog",
+    "title": "Welcome to my website",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/2023-05-27-how-to-create-this-website/index.html",
+    "href": "posts/2023-05-27-how-to-create-this-website/index.html",
+    "title": "How to create this websie",
+    "section": "",
+    "text": "A new approach\n\nOpen two sessions of RStudio, one each of your screens\nLeft-Screen: File > New Project > New Directory > Quarto website\n\nType in a Directory Name\nPick directory\nClick on “Create Project”\n\nRight-Screen: File > New Project > New Directory > Quarto Blog\n\nType in a Directory Name\nPick directory\nClick on “Create Project”\n\nUse windows explorer to go to the folder for the blog > copy the posts folder and past it in the folder for the website\nIn the Files pane of the website, use the “New Blank File” button to create the posts.qmd file\nUse windows explorer to go to the folder for the blog > copy the contents of index.qmd into the posts.qmd file in the Website folder\n\nWithin posts.qmd, change title to “blog”\n\nIn the _quarto.yml file, add the posts.qmd to the navbar\nClick render\nTo host in github, we need our post saved in a docs file\n\nIn the _quarto.yml file, add the line ….\nhttps://crumplab.com/articles/blog/post_887_8_25_22_quartoblog/index.html"
   },
   {
     "objectID": "posts/post-with-code/index.html",
@@ -32,6 +39,6 @@
     "href": "posts.html",
     "title": "blog",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMay 27, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMay 24, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "How to create this websie\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMay 27, 2023\n\n\nOwen beelders\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMay 27, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMay 24, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
   }
 ]

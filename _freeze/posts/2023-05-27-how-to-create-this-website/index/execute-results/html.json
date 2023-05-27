@@ -1,0 +1,14 @@
+{
+  "hash": "f7a3337997847abac0c3cabe68709e6a",
+  "result": {
+    "markdown": "---\ntitle: \"How to create this websie\"\nauthor: \"Owen beelders\"\ndate: \"2023-05-27\"\ncategories: [news, code, analysis]\nimage: \"image.jpg\"\n---\n\n\nThis is a post with executable code.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n\n\nA new approach\n\n-   Open two sessions of RStudio, one each of your screens\n\n-   Left-Screen: File \\> New Project \\> New Directory \\> Quarto website\n\n    -   Type in a Directory Name\n\n    -   Pick directory\n\n    -   Click on \\\"Create Project\\\"\n\n-   Right-Screen: File \\> New Project \\> New Directory \\> Quarto Blog\n\n    -   Type in a Directory Name\n\n    -   Pick directory\n\n    -   Click on \\\"Create Project\\\"\n\n-   Use windows explorer to go to the folder for the blog \\> copy the posts folder and past it in the folder for the website\n\n-   In the Files pane of the website, use the \\\"New Blank File\\\" button to create the posts.qmd file\n\n-   Use windows explorer to go to the folder for the blog \\> copy the contents of index.qmd into the posts.qmd file in the Website folder\n\n    -   Within posts.qmd, change title to \\\"blog\\\"\n\n-   In the \\_quarto.yml file, add the posts.qmd to the navbar\n\n-   Click render\n\n-   To host in github, we need our post saved in a docs file\n\n    -   In the \\_quarto.yml file, add the line ....\n\n    -   <https://crumplab.com/articles/blog/post_887_8_25_22_quartoblog/index.html>\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

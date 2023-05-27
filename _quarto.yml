@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "Quarto_Website_plus_blog"
+  title: "Owen Beelders"
   navbar:
     left:
       - href: index.qmd
